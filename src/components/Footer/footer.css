@@ -1,5 +1,5 @@
 .footer {
-  position:relative;
+  position: relative;
   color: white;
   background-color: #242B2E;
 }
@@ -8,7 +8,7 @@
   list-style: none;
 }
 
-.footer .contact_details{
+.footer .contact_details {
   display: flex;
   flex-direction: column;
 }
@@ -37,75 +37,95 @@
 
 }
 
-.footer .social_links span:hover:nth-child(1){
+.footer .social_links {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .footer .card_images {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end ;
+  }
+
+
+.footer .social_links span:hover:nth-child(1) {
   background-color: #1877F2;
   border: 2px solid #1877F2;
 }
 
-.footer .social_links span:hover:nth-child(2){
+.footer .social_links span:hover:nth-child(2) {
   background-color: #E4405F;
   border: 2px solid #E4405F;
 }
 
-.footer .social_links span:hover:nth-child(3){
+.footer .social_links span:hover:nth-child(3) {
   background-color: #0A66C2;
   border: 2px solid #0A66C2;
 }
 
-.footer .social_links span:hover:nth-child(4){
+.footer .social_links span:hover:nth-child(4) {
   background-color: #00C300;
   border: 2px solid #00C300;
 }
 
-.footer .social_links span:hover:nth-child(5){
+.footer .social_links span:hover:nth-child(5) {
   background-color: #00AFF0;
   border: 2px solid #00AFF0;
 }
 
-.footer .social_links span:hover:nth-child(6){
+.footer .social_links span:hover:nth-child(6) {
   background-color: #BD081C;
   border: 2px solid #BD081C;
 }
 
-.footer .footer__image{
+.footer .footer__image {
   width: 40px;
 }
 
-@media screen and (min-width: 720px) {
+
+  
+
+/* @media screen and (min-width: 960px) {
   .footer .row {
     text-align: center;
   }
 
-  .footer ul li h6{
+  .footer ul li h6 {
     text-decoration: underline;
   }
 
-  .footer .contact_details{
-  margin-bottom: 30px;
-}
-.footer .social_links, .footer .card_images {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
+  .footer .contact_details {
+    margin-bottom: 30px;
+  }
 
-}
+  .footer .social_links,
+  .footer .card_images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 
-@media screen and (max-width: 720px) {
+} */
+
+@media screen and (max-width: 992px) {
   .footer .row {
     text-align: center;
   }
 
-  .footer ul li h6{
+  .footer ul li h6 {
     text-decoration: underline;
   }
 
-  .footer .contact_details{
-  margin-bottom: 30px;
-}
-.footer .social_links, .footer .card_images {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
+  .footer .contact_details {
+    margin-bottom: 30px;
+  }
+
+  .footer .social_links,
+  .footer .card_images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 }

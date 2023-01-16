@@ -125,7 +125,7 @@ const Footer = () => {
 				</div>
 				<hr />
 				<div className='row'>
-					<div className='col-lg-4 col-12  text-start social_links'>
+					<div className='col-lg-4 col-12 social_links'>
 						<span>
 							<i class='fa-brands fa-facebook-f'></i>
 						</span>
@@ -148,7 +148,7 @@ const Footer = () => {
 					<div className='col-lg-4 col-12  d-flex justify-content-center align-items-center'>
 						<p>Copyright yourlogo.com @ 2023</p>
 					</div>
-					<div className='col-lg-4 col-12 text-end card_images'>
+					<div className='col-lg-4 col-12 card_images'>
 						<div className=''>
 							<img
 								src={mastercard}
