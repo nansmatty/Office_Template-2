@@ -1,0 +1,31 @@
+.signup{
+  position: relative;
+  background-image: url('https://images.pexels.com/photos/12290109/pexels-photo-12290109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signup .signup__box {
+  width: 60%;
+  background-color: #fff;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.signup .signup__box .form-control {
+  border-radius: 100px;
+}
+
+.signup .signup__box .btn-facebook{
+  text-align: center;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.signup .signup__box .btn-google{
+  text-align: center;
+  background-color: #dc4e41;
+  color: #fff;
+}
+
