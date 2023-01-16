@@ -7,7 +7,7 @@ const Footer = () => {
 		<section className='footer'>
 			<div className=' py-5 container'>
 				<div className='row'>
-					<div className='col-4'>
+					<div className='col-lg-4 col-12'>
 						<h2>YOUR LOGO</h2>
 						<p>
 							Your Logo is our B2B platform where
@@ -20,7 +20,7 @@ const Footer = () => {
 							</span>
 						</p>
 						<br />
-						<div className='d-flex flex-column'>
+						<div className='contact_details'>
 							<span className='mb-2'>
 								<i class='fa-solid fa-envelope'></i>
 								{"  "}
@@ -32,7 +32,7 @@ const Footer = () => {
 							</span>
 						</div>
 					</div>
-					<div className='col-2'>
+					<div className='col-lg-2 col-md-6 col-6'>
 						<ul className=''>
 							<li>
 								<h6>About Us</h6>
@@ -60,7 +60,7 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className='col-2'>
+					<div className='col-lg-2 col-md-6 col-6'>
 						<ul>
 							<li>
 								<h6>My Account</h6>
@@ -76,7 +76,7 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className='col-2'>
+					<div className='col-lg-2 col-md-6 col-6'>
 						<ul>
 							<li>
 								<h6>Customer Service</h6>
@@ -95,7 +95,7 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className='col-2'>
+					<div className='col-lg-2 col-md-6 col-6'>
 						<ul>
 							<li>
 								<h6>Relevant Link</h6>
@@ -125,7 +125,7 @@ const Footer = () => {
 				</div>
 				<hr />
 				<div className='row'>
-					<div className='col-4 text-start social_links'>
+					<div className='col-lg-4 col-12  text-start social_links'>
 						<span>
 							<i class='fa-brands fa-facebook-f'></i>
 						</span>
@@ -145,10 +145,10 @@ const Footer = () => {
 							<i class='fa-solid fa-envelope'></i>
 						</span>
 					</div>
-					<div className='col-4 d-flex justify-content-center align-items-center'>
+					<div className='col-lg-4 col-12  d-flex justify-content-center align-items-center'>
 						<p>Copyright yourlogo.com @ 2023</p>
 					</div>
-					<div className='col-4 text-end'>
+					<div className='col-lg-4 col-12 text-end card_images'>
 						<div className=''>
 							<img
 								src={mastercard}
