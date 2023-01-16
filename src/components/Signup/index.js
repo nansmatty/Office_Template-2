@@ -9,7 +9,7 @@ const Signup = () => {
 						<h3 className='text-center mb-4'>
 							Sign Up
 						</h3>
-						<div className='row row-gap-2'>
+						<div className='row'>
 							<div className='d-grid col-lg-6 col-12'>
 								<button className='btn btn-facebook fw-semibold rounded-pill'>
 									<span className='me-4'>
@@ -140,7 +140,7 @@ const Signup = () => {
 								</div>
 								<button
 									type='submit'
-									className='d-grid col-6 btn btn-danger fw-semibold rounded-pill'>
+									className='d-grid offset-3 mt-4 col-6 btn btn-danger fw-semibold rounded-pill'>
 									Register
 								</button>
 							</form>

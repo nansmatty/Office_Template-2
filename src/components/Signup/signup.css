@@ -29,3 +29,22 @@
   color: #fff;
 }
 
+@media screen and (max-width : 992px){
+  .signup .signup__box {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #fff;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.signup .signup__box .btn-facebook{
+  margin-bottom: 15px;
+}
+
+.signup .signup__box .p-5{
+  padding: 2rem !important;
+}
+
+
+}
