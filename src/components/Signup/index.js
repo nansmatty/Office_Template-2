@@ -35,7 +35,7 @@ const Signup = () => {
 							<form>
 								<div className='mb-3'>
 									<label
-										for='name'
+										htmlFor='name'
 										className='form-label'>
 										Name
 									</label>
@@ -50,7 +50,7 @@ const Signup = () => {
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												for='name'
+												htmlFor='name'
 												className='form-label'>
 												Name
 											</label>
@@ -65,7 +65,7 @@ const Signup = () => {
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												for='name'
+												htmlFor='name'
 												className='form-label'>
 												Name
 											</label>
@@ -80,7 +80,7 @@ const Signup = () => {
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												for='name'
+												htmlFor='name'
 												className='form-label'>
 												Name
 											</label>
@@ -95,7 +95,7 @@ const Signup = () => {
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												for='name'
+												htmlFor='name'
 												className='form-label'>
 												Name
 											</label>
@@ -110,7 +110,7 @@ const Signup = () => {
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												for='name'
+												htmlFor='name'
 												className='form-label'>
 												Name
 											</label>
@@ -125,7 +125,7 @@ const Signup = () => {
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												for='name'
+												htmlFor='name'
 												className='form-label'>
 												Name
 											</label>

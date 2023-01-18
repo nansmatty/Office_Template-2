@@ -32,7 +32,7 @@
 @media screen and (max-width : 992px){
   .signup .signup__box {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   background-color: #fff;
   opacity: 0.9;
   border-radius: 10px;

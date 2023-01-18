@@ -22,18 +22,18 @@ const Footer = () => {
 						<br />
 						<div className='contact_details'>
 							<span className='mb-2'>
-								<i class='fa-solid fa-envelope'></i>
+								<i className='fa-solid fa-envelope'></i>
 								{"  "}
 								support@yourlogo.com
 							</span>
 							<span>
-								<i class='fa-solid fa-phone'></i>{" "}
+								<i className='fa-solid fa-phone'></i>{" "}
 								+91 9819082345
 							</span>
 						</div>
 					</div>
 					<div className='col-lg-2 col-md-6 col-6'>
-						<ul className=''>
+						<ul>
 							<li>
 								<h6>About Us</h6>
 							</li>
@@ -127,22 +127,22 @@ const Footer = () => {
 				<div className='row'>
 					<div className='col-lg-4 col-12 social_links'>
 						<span>
-							<i class='fa-brands fa-facebook-f'></i>
+							<i className='fa-brands fa-facebook-f'></i>
 						</span>
 						<span>
-							<i class='fa-brands fa-instagram'></i>
+							<i className='fa-brands fa-instagram'></i>
 						</span>
 						<span>
-							<i class='fa-brands fa-linkedin-in'></i>
+							<i className='fa-brands fa-linkedin-in'></i>
 						</span>
 						<span>
-							<i class='fa-brands fa-whatsapp'></i>
+							<i className='fa-brands fa-whatsapp'></i>
 						</span>
 						<span>
-							<i class='fa-solid fa-video'></i>
+							<i className='fa-solid fa-video'></i>
 						</span>
 						<span>
-							<i class='fa-solid fa-envelope'></i>
+							<i className='fa-solid fa-envelope'></i>
 						</span>
 					</div>
 					<div className='col-lg-4 col-12  d-flex justify-content-center align-items-center'>
