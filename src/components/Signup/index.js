@@ -38,28 +38,60 @@ const Signup = () => {
 										htmlFor='name'
 										className='form-label'>
 										Name
+										<span className='required_star'>
+											*
+										</span>
 									</label>
 									<input
 										type='text'
 										className='form-control'
 										id='name'
 										placeholder='Your Name'
+										required
 									/>
 								</div>
 								<div className='row'>
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												htmlFor='name'
+												htmlFor='gender'
 												className='form-label'>
-												Name
+												Gender
+												<span className='required_star'>
+													*
+												</span>
 											</label>
-											<input
-												type='text'
-												className='form-control'
-												id='name'
-												placeholder='Your Name'
-											/>
+											<div className='d-flex'>
+												<div className='form-check me-3'>
+													<input
+														className='form-check-input'
+														type='radio'
+														name='exampleRadios'
+														id='exampleRadios1'
+														value='male'
+														checked
+													/>
+													<label
+														className='form-check-label'
+														htmlFor='exampleRadios1'>
+														Male
+													</label>
+												</div>
+												<div className='form-check'>
+													<input
+														className='form-check-input'
+														type='radio'
+														name='exampleRadios'
+														id='exampleRadios2'
+														value='female'
+													/>
+													<label
+														className='form-check-label'
+														htmlFor='exampleRadios2'>
+														Female
+													</label>
+												</div>
+											</div>
 										</div>
 									</div>
 									<div className='col-lg-6 col-12'>
@@ -67,80 +99,110 @@ const Signup = () => {
 											<label
 												htmlFor='name'
 												className='form-label'>
-												Name
+												City
+												<span className='required_star'>
+													*
+												</span>
+											</label>
+											<select
+												className='form-select rounded-pill'
+												aria-label='Default select example'
+												required>
+												<option selected>
+													City
+												</option>
+												<option value='mumbai'>
+													Mumbai
+												</option>
+												<option value='pune'>
+													Pune
+												</option>
+												<option value='ahmedabad'>
+													Ahmedabad
+												</option>
+											</select>
+										</div>
+									</div>
+									<div className='col-lg-6 col-12'>
+										<div className='mb-3'>
+											<label
+												htmlFor='phone'
+												className='form-label'>
+												Mobile Number
+												<span className='required_star'>
+													*
+												</span>
 											</label>
 											<input
-												type='text'
+												type='tel'
+												max='10'
 												className='form-control'
-												id='name'
-												placeholder='Your Name'
+												placeholder='Mobile or Phone'
+												id='phone'
 											/>
 										</div>
 									</div>
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												htmlFor='name'
+												htmlFor='email'
 												className='form-label'>
-												Name
+												Email Address
+												<span className='required_star'>
+													*
+												</span>
 											</label>
 											<input
-												type='text'
+												type='email'
 												className='form-control'
-												id='name'
-												placeholder='Your Name'
+												id='email'
+												placeholder='Your Email'
+												required
 											/>
 										</div>
 									</div>
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												htmlFor='name'
+												htmlFor='password'
 												className='form-label'>
-												Name
+												Password
+												<span className='required_star'>
+													*
+												</span>
 											</label>
 											<input
-												type='text'
+												type='password'
 												className='form-control'
-												id='name'
-												placeholder='Your Name'
+												id='password'
+												placeholder='Password'
+												required
 											/>
 										</div>
 									</div>
 									<div className='col-lg-6 col-12'>
 										<div className='mb-3'>
 											<label
-												htmlFor='name'
+												htmlFor='confirmPassword'
 												className='form-label'>
-												Name
+												Confirm Password
+												<span className='required_star'>
+													*
+												</span>
 											</label>
 											<input
-												type='text'
+												type='password'
 												className='form-control'
-												id='name'
-												placeholder='Your Name'
-											/>
-										</div>
-									</div>
-									<div className='col-lg-6 col-12'>
-										<div className='mb-3'>
-											<label
-												htmlFor='name'
-												className='form-label'>
-												Name
-											</label>
-											<input
-												type='text'
-												className='form-control'
-												id='name'
-												placeholder='Your Name'
+												id='confirmPassword'
+												placeholder='Confirm Password'
+												required
 											/>
 										</div>
 									</div>
 								</div>
 								<button
 									type='submit'
-									className='d-grid offset-3 mt-4 col-6 btn btn-danger fw-semibold rounded-pill'>
+									className='d-grid offset-lg-3 mt-4 offset-2 col-lg-6 col-8 btn registerBtn fw-semibold rounded-pill'>
 									Register
 								</button>
 							</form>
