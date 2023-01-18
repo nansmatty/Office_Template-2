@@ -19,13 +19,13 @@
 
 .signup .signup__box .btn-facebook{
   text-align: center;
-  background-color: #3b5998;
+  background-color: #2151a1;
   color: #fff;
 }
 
 .signup .signup__box .btn-google{
   text-align: center;
-  background-color: #dd4b39;
+  background-color: #ea4335;
   color: #fff;
 }
 
@@ -35,14 +35,14 @@
 
 
 .signup .signup__box .registerBtn{
-  background-color: #13263E;
+  background-color: #052b36;
   color: white;
   letter-spacing: 1px;
 }
 
 .signup .signup__box .form-check-input:checked {
-    background-color: #13263E;
-    border-color: #13263E;
+    background-color: #052b36;
+    border-color: #052b36;
 }
 
 .signup .signup__box .form-label{
@@ -52,8 +52,8 @@
 }
 
 .signup .signup__box .registerBtn:hover{
-  border: 1px solid#13263E;
-  color: #13263E;
+  border: 1px solid#052b36;
+  color: #052b36;
   letter-spacing: 1px;
   background-color: white;
 }

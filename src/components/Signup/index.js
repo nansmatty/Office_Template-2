@@ -206,9 +206,9 @@ const Signup = () => {
 									Register
 								</button>
 							</form>
-							<p className='text-center mt-3'>
+							<p className='text-center fw-semibold mt-3'>
 								Existing User?{" "}
-								<span className='fw-semibold'>
+								<span>
 									<a href='#'>Sign In</a>
 								</span>
 							</p>
