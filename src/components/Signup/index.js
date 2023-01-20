@@ -2,7 +2,7 @@ import "./signup.css";
 
 const Signup = () => {
 	return (
-		<section className='signup p-5'>
+		<section className='signup p-sm-5 px-2 py-5'>
 			<div className='container'>
 				<div className='signup__box'>
 					<div className='p-5'>
@@ -15,7 +15,10 @@ const Signup = () => {
 									<span className='me-4'>
 										<i className='fa-brands fa-facebook-f'></i>
 									</span>
-									<span>
+									<span className='d-sm-none d-inline'>
+										Sign In
+									</span>
+									<span className='d-none d-sm-inline'>
 										Sign In with Facebook
 									</span>
 								</button>
@@ -25,7 +28,12 @@ const Signup = () => {
 									<span className='me-4'>
 										<i className='fa-brands fa-google'></i>
 									</span>
-									<span>Sign In with Google</span>
+									<span className='d-sm-none d-inline'>
+										Sign In
+									</span>
+									<span className='d-none d-sm-inline'>
+										Sign In with Google
+									</span>
 								</button>
 							</div>
 							<br />

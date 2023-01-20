@@ -1,10 +1,11 @@
 import Footer from "./components/Footer";
+import Signin from "./components/Signin";
 import Signup from "./components/Signup";
 
 function App() {
 	return (
 		<div>
-			<Signup />
+			<Signin />
 			<Footer />
 		</div>
 	);
